@@ -1,0 +1,109 @@
+@import url("https://gistcdn.githack.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    scroll-behavior: smooth;
+    background: #fff;
+    font-family: "Gilroy", sans-serif;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    /* outline: none; */
+}
+
+.header {
+    padding: 40px 0;
+    margin-bottom: 40px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.nav-logo {
+    margin-left: 2px;
+}
+
+.Home {
+    color: rgba(242, 88, 34, 1);
+}
+
+.navigation {
+    display: flex;
+    gap: 37px;
+}
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.Features {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.main {
+    margin-bottom: 162px;
+}
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.content {
+    max-width: 522px;
+}
+.content-title {
+    font-weight: 400;
+    font-size: 60px;
+    color: #000;
+    margin-bottom: 17px;
+}
+.content-subtitle {
+    font-weight: 400;
+    font-size: 20px;
+    color: #888;
+    margin-bottom: 37px;
+}
+
+.content-btx {
+    width: 90px;
+    height: 19px;
+    color: rgba(170, 170, 170, 1);
+    background: none;
+}
+.content-btn-box {
+    display: flex;
+    gap: 72px;
+    align-items: center;
+}
+
+.content-btx-start {
+    width: 140px;
+    height: 50px;
+    background: none;
+}
+
+.footer {
+    margin-bottom: 96px;
+}
+.logos {
+    display: flex;
+    justify-content: space-between;
+}
